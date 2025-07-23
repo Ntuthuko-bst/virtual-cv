@@ -37,3 +37,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+form {
+    background: #e0f7fa;
+    padding: 15px;
+    border-radius: 8px;
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #023e8a;
+}
