@@ -5,72 +5,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ntuthuko Simelane - Virtual CV</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
-    <header>
-        <img src="assets/images/profile.jpg" alt="Profile Picture" class="profile-pic-header">
-        <h1>Ntuthuko Simelane</h1>
-        <p>Final Year BSc IT Student | Aspiring Cloud Data Engineer</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <header class="main-header">
+     <div class="header-content">
+      <img src="assets/images/profile.jpg" alt="Profile Picture" class="header-profile-pic">
+      <div class="intro-text">
+       <h1>Ntuthuko Simelane</h1>
+       <p>Final Year BSc IT Student | Aspiring Cloud Data Engineer</p>
+       <a href="Ntuthuko Simelane CV.pdf" download class="download-btn">📄 Download CV</a>
+      </div>
+     </div>
+     <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="#leave a message">Leave a Message</a>
+     </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a hardworking final year BSc IT student at North-West University, with a strong academic record and experience as an Academic Advisor, Student Assistant, and SALT member. I'm passionate about cloud engineering, teamwork, and delivering results.</p>
+
+    <section id="about" class="about-section">
+     <div class="about-card">
+      <h2>About Me</h2>
+      <p>
+       I am a hardworking final-year BSc IT student at North-West University with a strong academic record (77% average) and a passion for technology and cloud solutions.
+       Through my roles as an Academic Advisor, SALT Member, and Student Assistant, I’ve built leadership and mentorship skills that complement my technical foundation in programming and system design.
+      </p>
+      <p>
+       I’m now actively seeking opportunities in Cloud Data Engineering or Software Development, where I can apply my technical expertise, problem-solving mindset, and collaborative spirit.
+      </p>
+     </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>North-West University, BSc Information Technology (2019–2025) — 77% average</li>
-            <li>Relevant Courses: System Analysis, Data Structures, Machine Learning, Databases</li>
-        </ul>
+
+    <section id="education" class="education-section">
+     <h2>Education</h2>
+     <div class="timeline">
+       <div class="edu-card">
+         <h3>North-West University</h3>
+         <p><strong>Degree:</strong> BSc Information Technology</p>
+         <p><strong>Years:</strong> 2019 – 2025</p>
+         <p><strong>Average:</strong> 77%</p>
+         <p><strong>Key Courses:</strong> System Analysis, Data Structures, Machine Learning, Databases, Software Engineering</p>
+       </div>
+       <div class="edu-card">
+         <h3>High School (Example)</h3>
+         <p><strong>School:</strong> Example High School</p>
+         <p><strong>Years:</strong> 2014 – 2018</p>
+         <p><strong>Subjects:</strong> Mathematics, Physical Science, IT, English</p>
+       </div>
+     </div>
     </section>
 
-    <p><a href="cv.pdf" download>📄 Download My CV (PDF)</a></p>
+    <section id="skills" class="skills-section">
+     <div class="skills-card">
+       <h2>Skills</h2>
+       <ul>
+         <li><strong>Programming Languages:</strong> Java, Python, C++, R, HTML, CSS, SQL, SAS</li>
+         <li><strong>Web Development:</strong> HTML5, CSS3, JavaScript, GitHub Pages</li>
+         <li><strong>Tools & Software:</strong> Visual Studio, VS Code, Excel, Packet Tracer</li>
+         <li><strong>Soft Skills:</strong> Academic Advising, Leadership (SALT), Teamwork, Communication</li>
+         <li><strong>Cloud/Data Interests:</strong> Cloud Data Engineering, Machine Learning, Data Analysis</li>
+       </ul>
+     </div>
+   </section>
 
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming: Java, Python, C++, R, SQL, SAS</li>
-            <li>Web Dev: HTML, CSS, JavaScript</li>
-            <li>Tools: VS Code, Excel, Packet Tracer, GitHub</li>
-            <li>Soft Skills: Academic Support, Public Speaking, Leadership</li>
-        </ul>
+    <section id="experience" class="experience-section">
+      <h2>Experience</h2>
+      <div class="timeline-container">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Academic Advisor – Veritas Manskoshuis</h3>
+            <span class="timeline-date">2023 – Present</span>
+            <ul>
+              <li>Hosted academic sessions and provided mentorship to students.</li>
+              <li>Helped peers manage academic burnout and time management.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Student Assistant – NWU</h3>
+            <span class="timeline-date">2022 – 2024</span>
+            <ul>
+              <li>Assisted students with IT and academic-related support.</li>
+              <li>Helped staff coordinate learning materials and schedules.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>SALT Member (Student Advocating Leadership & Transformation)</h3>
+            <span class="timeline-date">2021 – Present</span>
+            <ul>
+              <li>Organized student leadership events and outreach programs.</li>
+              <li>Promoted inclusive representation across campus.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Academic Advisor – Veritas</strong> (2023–2025): Hosted academic sessions and mentorship support</li>
-            <li><strong>Student Assistant – NWU</strong>: Assisted students with academic and IT-related queries</li>
-            <li><strong>SALT Member</strong>: Advocated for leadership and transformation</li>
-        </ul>
+
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <a href="https://github.com/yourusername/hangman-game" target="_blank" class="project-card">
+          <h3>🕹️ Hangman Game (Java)</h3>
+          <p>Console-based word guessing game demonstrating logic, loops, and file input.</p>
+        </a>
+
+        <a href="https://github.com/yourusername/clinic-system" target="_blank" class="project-card">
+          <h3>🏥 Clinic Info System (C#)</h3>
+          <p>Desktop system for appointments and patient management built with Visual Studio.</p>
+        </a>
+
+        <a href="https://github.com/yourusername/clustering-random-data" target="_blank" class="project-card">
+          <h3>📊 Clustering Random Data (Python)</h3>
+          <p>Uses scikit-learn & matplotlib to visualize and analyze clusters of generated data.</p>
+        </a>
+
+      </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>🕹️ Hangman Game (Java) – Simple text-based word game</li>
-            <li>🏥 Clinic Info System – Patient appointment system using C# in Visual Studio</li>
-            <li>📊 Clustering Random Data – CMPG 313 practical using Python and sklearn</li>
-        </ul>
+
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <ul class="contact-list">
+        <li><i class="fas fa-envelope"></i> Example@gmail.com</li>
+        <li><i class="fas fa-phone"></i> +27 61 234 5678</li>
+        <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></li>
+        <li><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+        <li><i class="fas fa-map-marker-alt"></i> South Africa</li>
+      </ul>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: yourname@email.com</p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" target="_blank">linkedin.com/in/yourusername</a></p>
-    </section>
 
     <h2>Leave a Message</h2>
     <form action="https://formspree.io/forms" method="POST">
