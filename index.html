@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 </head>
+
+<button id="scrollToTopBtn" title="Back to Top">⬆</button>
+
 <body>
     <header class="main-header">
      <div class="header-content">
@@ -18,12 +21,16 @@
        <a href="Ntuthuko Simphiwe Simelane CV.pdf" download class="download-btn">📄 Download CV</a>
       </div>
      </div>
+
+     <button class="menu-toggle" id="menu-toggle">☰</button>
+
      <nav class="main-nav">
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
+      <a href="#more">More</a>
       <a href="#contact">Contact</a>
       <a href="#leave-message">Leave a Message</a>
      </nav>
@@ -43,7 +50,7 @@
     </section>
 
 
-    <section id="education" class="education-section">
+    <section id="education" class="education-section animate">
      <h2>Education</h2>
      <div class="timeline">
        <div class="edu-card">
@@ -59,7 +66,7 @@
      </div>
     </section>
 
-    <section id="skills" class="skills-section">
+    <section id="skills" class="skills-section animate">
      <div class="skills-card">
        <h2>Technical & Soft Skills</h2>
        <ul>
@@ -123,7 +130,7 @@
     </section>
 
 
-    <section id="projects" class="projects-section">
+    <section id="projects" class="projects-section animate">
       <h2>Projects</h2>
       <div class="project-grid">
 
@@ -153,6 +160,33 @@
 
       </div>
     </section>
+
+    <section id="more" class="more-section">
+      <h2>Achievements & More</h2>
+      <div class="more-cards">
+    
+        <div class="more-card">
+          <h3>🏆 Achievements</h3>
+          <ul>
+            <li>Golden Key International Honour Society Member</li>
+            <li>NWU Sports Sub-committee Member (2023/2024)</li>
+            <li>SALT Leadership Representative</li>
+          </ul>
+        </div>
+
+        <div class="more-card">
+          <h3>🎯 Hobbies</h3>
+          <ul>
+            <li>Working on different Projects (mostly in IT space)</li>
+            <li>Playing soccer</li>
+            <li>Exercising</li>
+            <li>Reading</li>
+            <li>Completing online short courses</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
 
 
     <section id="contact" class="contact-section">
@@ -191,6 +225,15 @@
     <script src="script.js"></script>
 
     <script src="script.js"></script>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const nav = document.querySelector(".main-nav");
+
+      menuToggle.addEventListener("click", () => {
+        nav.classList.toggle("active");
+      });
+    </script>
 
 </body>
 </html>

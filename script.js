@@ -1,4 +1,3 @@
-// Set the current year in the footer
 const footer = document.querySelector("footer p");
 const currentYear = new Date().getFullYear();
 footer.innerHTML = `&copy; ${currentYear} Ntuthuko Simelane | Portfolio Website`;
@@ -12,4 +11,14 @@ document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
       target.scrollIntoView({ behavior: "smooth" });
     }
   });
+});
+
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.addEventListener("scroll", () => {
+  scrollToTopBtn.style.display = window.scrollY > 300 ? "block" : "none";
+});
+
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
