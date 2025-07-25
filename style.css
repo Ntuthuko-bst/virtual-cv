@@ -102,7 +102,7 @@ button:hover {
 }
 
 .main-header {
-    background-color: #a6ccf0;
+    background-color: #00ccff;
     color: white;
     padding: 40px 20px 20px 20px;
     text-align: center;
@@ -132,7 +132,7 @@ button:hover {
 .intro-text p {
     margin: 0;
     font-size: 1.1em;
-    color: #caf0f8;
+    color: #023e8a;
 }
 
 .download-btn {
@@ -604,7 +604,7 @@ html {
   background-color: #003566;
 }
 
-/* --- Hamburger button --- */
+
 .menu-toggle {
   display: none;
   font-size: 1.8em;
@@ -618,7 +618,7 @@ html {
   z-index: 1001;
 }
 
-/* --- Responsive styles --- */
+
 @media (max-width: 768px) {
   .main-nav {
     display: none;
